@@ -11,7 +11,7 @@ class app {
 
  public:
   explicit app(std::string name = "", std::string description = "")
-      : app(name, description, nullprt) {}
+      : app(name, description, nullptr) {}
 
   /// Subcommand name or program name (from parser if name is empty)
   std::string name{};
