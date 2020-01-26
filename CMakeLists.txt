@@ -27,6 +27,6 @@ enable_testing()
 add_subdirectory(test)
 
 add_executable(cli main.cpp)
-
-target_link_libraries(cli lib/mofish)
+link_directories(${PROJECT_BINARY_DIR}/lib)
+target_link_libraries(cli mofish)
 target_include_directories(cli PUBLIC src)

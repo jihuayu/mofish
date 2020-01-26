@@ -3,6 +3,8 @@ add_executable(
     example_add.cpp
 )
 
+link_directories(${PROJECT_BINARY_DIR}/lib)
+
 target_link_libraries(
     unit_tests
     gtest_main

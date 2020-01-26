@@ -149,3 +149,4 @@ cmake-build-debug/
 
 # Benchmark outputs
 BenchmarkDotNet.Artifacts/
+/cmake-build*
