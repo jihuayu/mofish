@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(gtest-demo CXX)
 project(cli CXX)
 set(CMAKE_CXX_STANDARD 14)
 
@@ -26,5 +25,5 @@ fetch_googletest(
 enable_testing()
 add_subdirectory(test)
 
-# target_link_libraries(cli lib/mofish)
-# target_include_directories(cli PUBLIC src)
+target_link_libraries(cli lib/mofish)
+target_include_directories(cli PUBLIC src)
