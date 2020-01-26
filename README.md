@@ -1,6 +1,7 @@
 # mofish
 ![CMake Build Matrix](https://github.com/mofishes/mofish/workflows/CMake%20Build%20Matrix/badge.svg?event=push)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3613a64cd63f45a3b6a887d5511199d4)](https://www.codacy.com/gh/mofishes/mofish?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mofishes/mofish&amp;utm_campaign=Badge_Grade)
+
 一个用来构建命令行程序的库。
 
 ## 测试
