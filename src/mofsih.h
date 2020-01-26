@@ -4,7 +4,12 @@
 
 #ifndef CLI_MOFSIH_H
 #define CLI_MOFSIH_H
+
+#ifdef _MSC_VER
 #define API __declspec(dllexport) extern
+#else
+#define API extern
+#endif
 
 API double add(int f1, int f2);
 API double mul(int f1, int f2);
