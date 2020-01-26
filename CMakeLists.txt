@@ -24,5 +24,3 @@ fetch_googletest(
 
 enable_testing()
 add_subdirectory(test)
-
-target_include_directories(cli PUBLIC src)
