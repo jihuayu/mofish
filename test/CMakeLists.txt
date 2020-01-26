@@ -1,6 +1,8 @@
+file (GLOB test ${CMAKE_CURRENT_LIST_DIR}/*.cpp ${CMAKE_CURRENT_LIST_DIR}/*.c)
+
 add_executable(
     unit_tests
-    example_add.cpp
+    ${test}
 )
 
 link_directories(${PROJECT_BINARY_DIR}/lib)

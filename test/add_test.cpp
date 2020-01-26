@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "example.h"
-#pragma warning(disable:4996)
-TEST(example, add)
+
+TEST(add_test, add)
 {
     double res;
     res = add(1, 2);
