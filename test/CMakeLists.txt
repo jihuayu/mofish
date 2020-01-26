@@ -1,6 +1,6 @@
 add_executable(
     unit_tests
-    example_add.cpp
+    app.cpp
 )
 
 link_directories(${PROJECT_BINARY_DIR}/lib)
