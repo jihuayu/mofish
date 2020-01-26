@@ -26,5 +26,5 @@ fetch_googletest(
 enable_testing()
 add_subdirectory(test)
 
-target_link_libraries(cli lib/mofish)
-target_include_directories(cli PUBLIC src)
+# target_link_libraries(cli lib/mofish)
+# target_include_directories(cli PUBLIC src)
