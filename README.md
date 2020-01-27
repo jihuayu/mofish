@@ -10,35 +10,34 @@
 
 ## 文件结构
 
-- test/：放测试文件，测试目录。
-- src/：代码主目录。
-- main.cpp：cli主函数，只写cli逻辑。
+-   test/：放测试文件，测试目录。
+-   src/：代码主目录。
+-   main.cpp：cli主函数，只写cli逻辑。
 
 ## 安装方法
 
--  使用mofish_install.（WIP）
--  clone本项目自行编译.
--  在release中下载特定版本。
+-   使用mofish_install.（WIP）
+-   clone本项目自行编译.
+-   在release中下载特定版本。
 
 ## 使用方法
 
--  mofish install <port>
--  mofish remove <port>
--  mofish list
--  mofish help
+-   mofish install <port>
+-   mofish remove <port>
+-   mofish list
+-   mofish help
 
 当然，以上功能一个都没实现。
 
 ## 贡献插件
 
-0. fork本仓库。
-1. 在ports文件中新建一个以插件名字命名的文件夹。
-2. 按照样例写好配置文档。
-3. 发送PR。
-5. 测试通过，即可合并。
+0.  fork本仓库。
+1.  在ports文件中新建一个以插件名字命名的文件夹。
+2.  按照样例写好配置文档。
+3.  发送PR。
+5.  测试通过，即可合并。
 
 当然，以上功能一个都没实现。
-
 
 ## 贡献文档
 
