@@ -17,16 +17,18 @@ endif()
 
 add_subdirectory(src)
 
-include(cmake/googletest.cmake)
-fetch_googletest(
-        ${PROJECT_SOURCE_DIR}/cmake
-        ${PROJECT_BINARY_DIR}/googletest
-)
+if ($ENV{MOFISH_TEST})
+    include(cmake/googletest.cmake)
+    fetch_googletest(
+            ${PROJECT_SOURCE_DIR}/cmake
+            ${PROJECT_BINARY_DIR}/googletest
+    )
 
-enable_testing()
-add_subdirectory(test)
+    enable_testing()
+    add_subdirectory(test)
+endif ()
 
 add_executable(cli main.cpp)
-link_directories(${PROJECT_BINARY_DIR}/lib)
 target_link_libraries(cli mofish)
 target_include_directories(cli PUBLIC src)
+set_target_properties(cli PROPERTIES OUTPUT_NAME mofish)
