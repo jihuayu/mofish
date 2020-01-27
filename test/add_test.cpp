@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "example.h"
+#include <mofish.h>
 
 TEST(add_test, add)
 {
